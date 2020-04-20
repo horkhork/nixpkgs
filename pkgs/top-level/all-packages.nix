@@ -2869,6 +2869,7 @@ in
   djbdns = callPackage ../tools/networking/djbdns { };
 
   dnscrypt-proxy2 = callPackage ../tools/networking/dnscrypt-proxy2 { };
+  dnscrypt-proxy2-blacklist-updater = callPackage ../tools/networking/dnscrypt-proxy2-blacklist-updater { };
 
   dnscrypt-wrapper = callPackage ../tools/networking/dnscrypt-wrapper { };
 
