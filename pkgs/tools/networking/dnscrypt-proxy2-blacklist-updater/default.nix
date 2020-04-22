@@ -5,6 +5,8 @@
 #  - Add crontab entry here with options
 #  - Based on options generate domains-blacklist.conf, domains-whitelist, time-restricted, custom
 #  - actually hook up to dnscrypt-proxy2
+#  - run cronjob as non-root
+#  - instead of cron, run the updater as a systemd unit
 
 python3Packages.buildPythonApplication rec {
   pname = "dnscrypt-proxy2-blacklist-updater";
